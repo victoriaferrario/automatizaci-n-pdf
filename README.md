@@ -1,16 +1,18 @@
-# React + Vite
+# Automatización de completado a PDF
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web que desde un PDF y una base de datos estructurados (Excel por ej) , después de seleccionar los campos a rellenar como plantilla, automatiza el proceso de escritura de cada una de las celdas. Para agilizar y optimizar el flujo de trabajo de mis familiares. 
 
-Currently, two official plugins are available:
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Stack esperado para utilizar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ - Frontend: React + Tailwind
+ - Backend: Fast API(Python)
+ - Rellenado de PDF: reportlab
+ - Una vez finalizada la base espero integrarlo a google sheets con su propia API. (Gracias a que los Google forms desembocan en google sheets)
+ - Hosting: Pendiente
 
-## Expanding the ESLint configuration
+  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Experiencia que busco ganar: REST APIs, manejo de archivos, OAuth(para google), arquitectura full-stack básica
